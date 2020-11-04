@@ -1,0 +1,138 @@
+body{
+   margin: 0;
+   padding: 0;
+   height: 900px;
+}
+h1,h2,h3,h4,h5,h6,p{
+   margin: 0;
+   padding: 0;
+}
+.main{
+   border: 5px solid #e6b422;
+   width: 980px;
+   height: 780px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   position: relative;
+   top: 60px;
+}
+.main-top{
+   /* background: red; */
+   height: 380px;
+   overflow: hidden;
+}
+.main-top > p{
+   width: 450px;
+   float: left;
+   padding: 15px;
+   margin-left: 10px;
+   margin-top: 10px;
+   font-size: 17px;
+   box-sizing: border-box;
+   background: black;
+   height: 300px;
+   color: white;
+}
+.top-wrap{
+   width: 500px;
+   height: 300px;
+   margin-top: 10px;
+   margin-right: 10px;
+   float: left;
+}
+.top-wrap h2{
+   text-align: center;
+   padding: 5px;
+   font-size: 20px;
+   box-sizing: border-box;
+}
+.top-wrap img{
+   display: block;
+   width: 250px;
+   height: 250px;
+   margin: 0 auto;
+}
+.top-wrap p{
+   text-align: center;
+   font-size: 16px;
+   padding: 5px;
+   box-sizing: border-box;
+}
+.main-bottom{
+   width: 100%;
+   height: 380px;
+   overflow: hidden;
+}
+.main-bottom .left-wrap{
+   width: 500px;
+   height: 300px;
+   float: left;
+}
+.left-wrap img{
+   display: block;
+   width: 250px;
+   height: 250px;
+   margin: 0 auto;
+      padding-top: 16px;
+}
+.left-wrap p{
+   text-align: center;
+   padding: 5px;
+   box-sizing: border-box;
+   font-size: 16px;
+}
+.right-wrap{
+   float: right;
+   width: 450px;
+   height: 320px;
+   margin-right: 10px;
+}
+.right-wrap p{
+   background: black;
+   color: white;
+   width: 420px;
+   height: 250px;
+   padding: 15px;
+}
+form{
+   height: 60px;
+   overflow: hidden;
+}
+input[type="submit"]{
+   display: block;
+   float: left;
+   border: none;
+   font-size: 15px;
+   background: #e6b422;
+   color: white;
+   width: 145px;
+   height: 40px;
+   margin: 5px;
+}
+
+input[type="submit"]:hover{
+   cursor: pointer;
+}
+.start_screen{
+   width: 980px;
+   height: 600px;
+   border: 5px solid #e6b422;
+   margin: 0 auto;
+   position: relative;
+   top: 150px;
+}
+.start-form{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.start-form img{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+.start-form input{
+   position: absolute;
+   bottom: 50px;
+   left: 40px;
+}
